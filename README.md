@@ -1,3 +1,3 @@
-# starwars-names
+# lotr-names
 
-For all your random Star Wars character needs
+For all your random LOTR character needs
