@@ -1,7 +1,7 @@
 import {expect} from 'chai'
 import lotrNames from '.'
 
-describe('lotr-names', () => {
+describe('lotr-random-names', () => {
   it('should have a list of all available names', () => {
     expect(lotrNames.all).to.satisfy(isArrayOfStrings)
   })

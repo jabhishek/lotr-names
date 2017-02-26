@@ -1,3 +1,3 @@
-# lotr-names
+# lotr-random-names
 
-For all your random LOTR character needs
+This generates a random Lord of the Rings character name
