@@ -94,7 +94,7 @@
   "config": {
     "ghooks": {
       "pre-commit": "npm run validate",
-      "commit-msg": "validate-commit-msg"
+      "commit-msg": "./node_modules/.bin/validate-commit-msg"
     }
   }
 }
