@@ -1,6 +1,6 @@
 {
   "name": "lotr-random-names",
-  "version": "2.0.1",
+  "version": "0.0.0-semantically-released",
   "description": "Get random LOTR character names",
   "main": "dist/index.js",
   "scripts": {
@@ -13,7 +13,8 @@
     "watch:test": "mocha --watch",
     "lint": "eslint src",
     "validate": "npm-run-all --parallel test lint build",
-    "report-coverage": "cat ./coverage/lcov.info | codecov"
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -52,7 +53,8 @@
     "npm-run-all": "2.3.0",
     "nyc": "7.1.0",
     "rimraf": "2.5.4",
-    "webpack": "1.13.1"
+    "webpack": "1.13.1",
+    "semantic-release": "^6.3.2"
   },
   "nyc": {
     "all": true,
